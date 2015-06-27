@@ -1,6 +1,6 @@
 //This script merge result file
 // usage:  g++ DownstreamBlast.cpp -o DownstreamBlast
-// ./DownstreamBlast yourfile.txt result.txt
+// ./DownstreamBlast outtabular.txt result.txt
 #include <stdio.h>
 #include <iostream>
 #include <string>
