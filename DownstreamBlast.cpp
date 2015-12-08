@@ -33,6 +33,8 @@ myfile.open (argv[2]);
 
 while(getline(inputTable,table))
 {
+	if(table.substr(0,1)==("#")) continue;
+	if(table=="") continue;
 	istringstream ss (table);
 	//this add data into the column (second number)
 	vector <string> record;
