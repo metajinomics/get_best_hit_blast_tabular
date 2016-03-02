@@ -3,7 +3,7 @@
 import sys
 
 blastread = open(sys.argv[1],'r')
-sumread = opne(sys.argv[2],'r')
+sumread = open(sys.argv[2],'r')
 
 dict = {}
 line = sumread.next()
