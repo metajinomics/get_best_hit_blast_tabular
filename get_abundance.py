@@ -11,6 +11,7 @@ while line != "Counts/sample detail:":
     line = sumread.readlines()
 line = sumread.readlines()
 for line in sumread:
+    print line
     spl = line.strip().split(": ")
     dict[spl[0]]=spl[1]
 
