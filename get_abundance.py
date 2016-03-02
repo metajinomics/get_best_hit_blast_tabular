@@ -8,9 +8,10 @@ sumread = open(sys.argv[2],'r')
 dict = {}
 line = sumread.readlines()
 print line
-while line != "Counts/sample detail:":
+for i in range(0,15):
     line = sumread.next()
-    print line
+
+print line
 line = sumread.readlines()
 for line in sumread:
     #print line
