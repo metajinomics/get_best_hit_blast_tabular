@@ -11,7 +11,7 @@ for i in range(0,14):
     line = sumread.next()
 
 for line in sumread:
-    print line
+    #print line
     spl = line.strip().split(": ")
     dict[spl[0]]=spl[1]
 
