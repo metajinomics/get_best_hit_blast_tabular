@@ -9,6 +9,7 @@ dict = {}
 line = sumread.readlines()
 while line != "Counts/sample detail:":
     line = sumread.readlines()
+    print line
 line = sumread.readlines()
 for line in sumread:
     print line
