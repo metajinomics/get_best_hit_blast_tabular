@@ -6,10 +6,10 @@ blastread = open(sys.argv[1],'r')
 sumread = open(sys.argv[2],'r')
 
 dict = {}
-line = sumread.next()
+line = sumread.readlines()
 while line != "Counts/sample detail:":
-    line = sumread.next()
-line = sumread.next()
+    line = sumread.readlines()
+line = sumread.readlines()
 for line in sumread:
     spl = line.strip().split(": ")
     dict[spl[0]]=spl[1]
