@@ -20,5 +20,5 @@ for line in sumread:
 
 for line in blastread:
     spl = line.strip().split('\t')
-    if(dict.has_key(spl[1])):
-           print spl[1]+'\t'+dict[spl[1]]
+    #if(dict.has_key(spl[1])):
+           #print spl[1]+'\t'+dict[spl[1]]
