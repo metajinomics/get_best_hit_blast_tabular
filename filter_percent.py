@@ -6,7 +6,7 @@ per = float(sys.argv[2])
 #per = sys.argv[2]
 
 #le = 72
-le = sys.argv[3]
+le = int(sys.argv[3])
 now = ""
 for line in fread:
     spl = line.strip().split('\t')
